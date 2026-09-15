@@ -36,4 +36,15 @@ nome = nome.title()
 print(nome) # o title coloca a primeira letra de cada palavra em maiusculo 
 
 
+nome = "joão paulo lira"
+email = "usuario@gmail.com"
+posicao = email.find("@")
+print(posicao) 
+cortador = email[posicao+1:]
+print(cortador) 
+primeiro_nome = nome.find(" ")
+primeiro_nome = nome.find(" ")
+print(primeiro_nome)
+
+
 
