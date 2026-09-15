@@ -42,9 +42,9 @@ posicao = email.find("@")
 print(posicao) 
 cortador = email[posicao+1:]
 print(cortador) 
-primeiro_nome = nome.find(" ")
-primeiro_nome = nome.find(" ")
+posicao_nome = nome.find(" ")
+primeiro_nome = nome[:posicao_nome]
 print(primeiro_nome)
-
+print(f"Usuario {primeiro_nome} foi cadastrado com sucesso no email {email}")
 
 
